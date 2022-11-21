@@ -1,0 +1,25 @@
+{
+  "name": "rpg-trade-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrec/rpg-trade-system.git"
+  },
+  "author": "Rafael Crempe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelrec/rpg-trade-system/issues"
+  },
+  "homepage": "https://github.com/rafaelrec/rpg-trade-system#readme"
+}
