@@ -1,5 +1,14 @@
+import fetch from "node-fetch";
 
-import pokemon from "./pokemons.json" assert {type: 'json'};
+let pokemons = fetch('http://localhost:3000/pokemon')
+.then((pokemons) => {
+console.log(pokemons)
+return pokemons})
+.then((error) => console.log(error));
 
-const pokemonName = {}
 
+
+console.log("List all pokemons", pokemons )
+const pokeNames = pokemons.filter((pokemons) => {pokemons.name})
+
+console.log(pokeNames);
